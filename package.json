@@ -1,0 +1,18 @@
+{
+  "name": "volto-addons",
+  "version": "1.0.0",
+  "description": "Miscellaneous enhancements for Volto",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Volto",
+    "Plone",
+    "Rohberg"
+  ],
+  "author": "Katja Süss",
+  "license": "MIT",
+  "dependencies": {},
+  "voltoCustomizationPath": "src/customizations"
+}

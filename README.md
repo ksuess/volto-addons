@@ -1,0 +1,2 @@
+# Miscellaneous enhancements for Volto
+
