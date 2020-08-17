@@ -5,7 +5,6 @@ import FAQBlockEdit from './FAQ/BlockEdit';
 
 
 export function applyConfig(config) {
-  addCustomGroup(config);
 
   config.blocks.blocksConfig.faq_viewer = {
     id: 'faq_viewer',
@@ -13,9 +12,8 @@ export function applyConfig(config) {
     view: FAQBlockView,
     edit: FAQBlockEdit,
     icon: chartIcon,
-    group: 'custom_addons',
+    group: 'common',
   };
   
   return config;
 }
-
