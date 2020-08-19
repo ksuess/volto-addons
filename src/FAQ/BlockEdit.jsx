@@ -1,4 +1,5 @@
 import React from 'react';
+import cx from 'classnames';
 import { SidebarPortal } from '@plone/volto/components';
 import FAQSidebar from './FAQSidebar';
 
